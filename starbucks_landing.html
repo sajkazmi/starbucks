@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Starbucks</title>
+    <link rel="stylesheet" href="starbucks_style.css">
+    <link rel="stylesheet" href="D:\Atom files\Glass\glass.css">
+  </head>
+  <body>
+    <section>
+      <div class="circle"></div>
+      <header>
+        <a href="">
+          <img class='logo' src="Gallery/logo.png" alt="">
+        </a>
+        <ul class='menu-list'>
+          <li>
+            <a href="">Menu</a>
+          </li>
+          <li>
+            <a href="">Order Now!</a>
+          </li>
+          <li>
+            <a href="">What's New?</a>
+          </li>
+          <li>
+            <a href="">About</a>
+          </li>
+        </ul>
+      </header>
+      <div class="main">
+        <div class="textbox">
+          <h2>
+            It's not just Coffee <br>It's <span>Starbucks</span>
+          </h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          </p>
+          <a href="">Learn More</a>
+        </div>
+        <div class="imagebox">
+          <img src="Gallery/coffee1.png" class="starbucks">
+        </div>
+      </div>
+      <ul class='thumb'>
+        <li>
+          <img src="Gallery/thumb1.png" onclick="coffee1func(); changeCircleColor('#017143')">
+        </li>
+        <li>
+          <img src="Gallery/thumb2.png" onclick="coffee2func(); changeCircleColor('#eb7495')">
+        </li>
+        <li>
+          <img src="Gallery/thumb3.png" onclick="coffee3func(); changeCircleColor('#d752b1')">
+        </li>
+      </ul>
+      <ul class='social'>
+        <li>
+          <a href="">
+            <img src="Gallery/facebook.png" alt="">
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <img src="Gallery/instagram.png" alt="">
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <img src="Gallery/twitter.png" alt="">
+          </a>
+        </li>
+      </ul>
+    </section>
+    <div class="women-day">
+      <div class="textbox-women">
+        <h2>Celebrate Women's History Month</h2>
+        <p id="ppp">
+          Meet these partners (employees) from across the globe, who are redifining leadership every day for their stories, their communities and for women everyday.
+        </p>
+        <a href="">Get Inspired</a>
+      </div>
+      <img src="Gallery\women.webp" alt="">
+    </div>
+    <section class="">
+      <section class="container">
+          <div class="card">
+            <div class="content">
+              <h2>
+                01
+              </h2>
+              <h3>
+                Green Latte
+              </h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <a href="">
+                Read More
+              </a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="content">
+              <h2>
+                02
+              </h2>
+              <h3>
+                Strawberry Shake
+              </h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <a href="">
+                Read More
+              </a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="content">
+              <h2>
+                03
+              </h2>
+              <h3>
+                Starbucks Coffee
+              </h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <a href="">
+                Read More
+              </a>
+            </div>
+          </div>
+      </section>
+      <script type="text/javascript" src="D:\Atom files\Glass\vanilla-tilt.js">
+      </script>
+      <script >
+        VanillaTilt.init(document.querySelectorAll(".card"),{
+  		  max: 25,
+  		  speed: 400,
+        glare: true,
+        'max-glare': 1,
+  	  });
+      </script>
+      <script src='starbucks.js'></script>
+    </section>
+    <footer>
+      <h4>Starbucks &copy; 2008 NYC</h4>
+    </footer>
+  </body>
+</html>
